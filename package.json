@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://NataFilina.github.io/to-do-list",
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack server --mode development --open",
-    "server": "json-server -w server/db.json",
-    "build": "webpack server src/*.html --public-url /to-do-list/"
+    "server": "json-server -w server/db.json"
   },
   "keywords": [],
   "author": "",
