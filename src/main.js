@@ -69,6 +69,5 @@ listEl.addEventListener("click", onCheckTask);
 function onCheckTask(event) {
   if (!event.target.className.includes("text")) return;
   const elemLi = event.target.closest(".item");
-  const elemId = elemLi.dataset.id;
-  elemLi.classList.add("checked");
+  elemLi.classList.toggle("checked");
 }
