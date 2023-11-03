@@ -1,4 +1,4 @@
-const STORAGE_KEY = 'tu-do-list';
+const STORAGE_KEY = "tu-do-list";
 
 export function setToLocalStorage(str) {
   const localArr = getFromLocalStorage();
